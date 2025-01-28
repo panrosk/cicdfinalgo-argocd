@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: final-project
-          image: fabianrc2810/final-project:b6b7abc7a1a26f57db5df1b6b2a3f35d514d6776
+          image: docker.io/panrosk/final-project:eec573dc2a90da109dff5871604af3bd41cff920
           imagePullPolicy: Always
           ports:
             - containerPort: 80
