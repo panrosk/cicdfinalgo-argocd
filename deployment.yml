@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: final-project
-          image: docker.io/panrosk/cicdfinalgo:42553d68b53157a0eb807e60f997c6a3b71ad2d1
+          image: docker.io/panrosk/cicdfinalgo:eaeba27729fa34a329e9947f5575d705fbd04ece
           imagePullPolicy: Always
           ports:
             - containerPort: 80
