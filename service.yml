@@ -8,6 +8,5 @@ spec:
     app: final-project
   ports:
     - port: 80
-      protocol: TCP
       targetPort: 8080
       nodePort: 30008
