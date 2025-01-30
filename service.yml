@@ -11,6 +11,7 @@ spec:
   selector:
     app: final-project
   ports:
-    - port: 80
+    - name: metrics
+      port: 80
       targetPort: 8080
       nodePort: 30008
